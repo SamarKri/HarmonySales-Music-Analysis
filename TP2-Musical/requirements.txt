@@ -1,0 +1,7 @@
+streamlit
+pandas
+matplotlib
+huggingface_hub
+seaborn
+poetry
+Sphinx
