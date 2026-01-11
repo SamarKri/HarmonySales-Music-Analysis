@@ -1,0 +1,25 @@
+[project]
+name = "tp2"
+version = "0.99"
+description = "This interactive application helps a music production company determine which music style maximizes sales. It includes a homepage and a dashboard with insightful visualizations."
+authors = [
+    {name = "SAMAR KRIMI"}
+]
+license = {text = "Copyright@2025-SAMARKRIMI"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit (>=1.42.0,<2.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "matplotlib (>=3.10.0,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+sphinx = "^8.1.3"
+
