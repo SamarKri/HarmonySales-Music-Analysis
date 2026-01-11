@@ -1,6 +1,3 @@
-<p align="center">
-    <img src="icons/icon1.png" alt="Music Icon" width="60" height="60">
-</p>
 
 <h2 align="center"><strong>HarmonySales Music Analysis - Streamlit Application</strong></h2>
 
